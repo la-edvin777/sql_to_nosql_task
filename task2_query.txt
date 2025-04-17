@@ -1,0 +1,21 @@
+1. Created the SQL query to get the required data:#
+
+SELECT DISTINCT 
+    d.drugID,
+    d.name,
+    d.sideeffects,
+    d.benefits,
+    p.dosage,
+    p.duration
+FROM drug d
+INNER JOIN prescription p ON d.drugID = p.drugID
+WHERE p.duration > 20 
+AND p.dosage > 10;
+
+2. Using mysql pipeline with tee, export the drug data:
+
+sudo mysql HealthInsuranceDBedvin -e "SELECT DISTINCT d.drugID, d.name, d.sideeffects, d.benefits, p.dosage, p.duration FROM drug d INNER JOIN prescription p ON d.drugID = p.drugID WHERE p.duration > 20 AND p.dosage > 10;" | tee drug_data_raw.csv
+
+3. Import the data to MongoDB using mongoimport:
+
+mongoimport --uri "mongodb+srv://edvin:<guess>@cluster0.ggr14.mongodb.net/Hospital" --collection Drug --file drug_data.json --jsonArray

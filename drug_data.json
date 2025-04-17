@@ -1,0 +1,92 @@
+[
+  {
+    "drugID": "34154",
+    "name": "risperidone",
+    "sideeffects": "Suture of tongue lacerat",
+    "benefits": "Traction of Left Hand",
+    "prescriptionDetails": {
+      "dosage": 16,
+      "duration": 98
+    }
+  },
+  {
+    "drugID": "23810",
+    "name": "Aspen",
+    "sideeffects": "Hearing examination NOS",
+    "benefits": "Excision of Right Palatine Bone, Open Approach, Diagnostic",
+    "prescriptionDetails": {
+      "dosage": 24,
+      "duration": 34
+    }
+  },
+  {
+    "drugID": "19111",
+    "name": "Isopropyl Alcohol",
+    "sideeffects": "Bilat simple mastectomy",
+    "benefits": "Drainage of Left Upper Arm Muscle, Perc Endo Approach, Diagn",
+    "prescriptionDetails": {
+      "dosage": 22,
+      "duration": 42
+    }
+  },
+  {
+    "drugID": "43091",
+    "name": "Methadone Hydrochloride",
+    "sideeffects": "Retroperiton pneumogram",
+    "benefits": "Extirpation of Matter from Left Testis, Perc Approach",
+    "prescriptionDetails": {
+      "dosage": 17,
+      "duration": 74
+    }
+  },
+  {
+    "drugID": "69790",
+    "name": "Verapamil Hydrochloride",
+    "sideeffects": "Remove int fix face bone",
+    "benefits": "Removal of Bandage on Right Upper Leg",
+    "prescriptionDetails": {
+      "dosage": 16,
+      "duration": 57
+    }
+  },
+  {
+    "drugID": "99089",
+    "name": "SODIUM BICARBONATE",
+    "sideeffects": "Bile duct repair NEC",
+    "benefits": "Replacement of R Hip Jt with Metal, Cement, Open Approach",
+    "prescriptionDetails": {
+      "dosage": 18,
+      "duration": 95
+    }
+  },
+  {
+    "drugID": "55269",
+    "name": "Gabapentin",
+    "sideeffects": "Sinus lavage thru ostium",
+    "benefits": "Insertion of Radioact Elem into Chest Wall, Perc Approach",
+    "prescriptionDetails": {
+      "dosage": 16,
+      "duration": 42
+    }
+  },
+  {
+    "drugID": "60094",
+    "name": "ergotamine tartrate",
+    "sideeffects": "Osteoclasis-patella",
+    "benefits": "Dilate R Peroneal Art w 2 Intralum Dev, Perc Endo",
+    "prescriptionDetails": {
+      "dosage": 24,
+      "duration": 22
+    }
+  },
+  {
+    "drugID": "76121",
+    "name": "Minoxidil",
+    "sideeffects": "Adrenal reimplantation",
+    "benefits": "Restriction of Right Axillary Artery, Perc Endo Approach",
+    "prescriptionDetails": {
+      "dosage": 28,
+      "duration": 83
+    }
+  }
+] 

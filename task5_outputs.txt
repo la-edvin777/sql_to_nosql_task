@@ -1,0 +1,171 @@
+1. Output of highly-rated movies query:
+[
+  {
+    "_id": ObjectId("573a139ff29313caabd003c4"),
+    "title": "Band of Brothers",
+    "year": 2001,
+    "imdb": { "rating": 9.6, "votes": 183802 }
+  },
+  {
+    "_id": ObjectId("573a13b8f29313caabd4c241"),
+    "title": "Planet Earth",
+    "year": 2006,
+    "imdb": { "rating": 9.5, "votes": 82896 }
+  },
+  {
+    "_id": ObjectId("573a1399f29313caabceeb20"),
+    "imdb": { "rating": 9.3, "votes": 1521105 },
+    "year": 1994,
+    "title": "The Shawshank Redemption"
+  },
+  {
+    "_id": ObjectId("573a139ff29313caabd015b9"),
+    "imdb": { "rating": 9.3, "votes": 1513145 },
+    "year": 1994,
+    "title": "The Shawshank Redemption"
+  },
+  {
+    "_id": ObjectId("573a1397f29313caabce7c4b"),
+    "title": "Cosmos",
+    "year": 1980,
+    "imdb": { "rating": 9.3, "votes": 17174 }
+  }
+]
+
+2. Output of Christopher Nolan movies query:
+[
+  {
+    "_id": ObjectId("573a13b5f29313caabd42722"),
+    "year": 2008,
+    "title": "The Dark Knight",
+    "tomatoes": { "critic": { "meter": 94 } }
+  },
+  {
+    "_id": ObjectId("573a13a0f29313caabd05acc"),
+    "year": 2000,
+    "title": "Memento",
+    "tomatoes": { "critic": { "meter": 92 } }
+  },
+  {
+    "_id": ObjectId("573a13a5f29313caabd1605f"),
+    "year": 2002,
+    "title": "Insomnia",
+    "tomatoes": { "critic": { "meter": 92 } }
+  },
+  {
+    "_id": ObjectId("573a13c4f29313caabd6cc80"),
+    "year": 2012,
+    "title": "The Dark Knight Rises",
+    "tomatoes": { "critic": { "meter": 87 } }
+  },
+  {
+    "_id": ObjectId("573a13c5f29313caabd6ee61"),
+    "year": 2010,
+    "title": "Inception",
+    "tomatoes": { "critic": { "meter": 86 } }
+  }
+]
+
+3. Output of recent sci-fi movies query:
+[
+  {
+    "_id": ObjectId("573a13c5f29313caabd6ee61"),
+    "imdb": { "rating": 8.8 },
+    "year": 2010,
+    "title": "Inception"
+  },
+  {
+    "_id": ObjectId("573a13b9f29313caabd4ddff"),
+    "imdb": { "rating": 8.7 },
+    "year": 2014,
+    "title": "Interstellar"
+  },
+  {
+    "_id": ObjectId("573a13dbf29313caabdb009e"),
+    "title": "Lucia",
+    "year": 2013,
+    "imdb": { "rating": 8.5 }
+  },
+  {
+    "_id": ObjectId("573a13c5f29313caabd70568"),
+    "imdb": { "rating": 8.3 },
+    "year": 2015,
+    "title": "Mad Max: Fury Road"
+  },
+  {
+    "_id": ObjectId("573a13ecf29313caabdd1d85"),
+    "title": "The Lobster",
+    "year": 2015,
+    "imdb": { "rating": 8.2 }
+  }
+]
+
+4. Output of most active users query:
+[
+  {
+    "_id": "roger_ashton-griffiths@gameofthron.es",
+    "total_comments": 277
+  },
+  {
+    "_id": "jonathan_pryce@gameofthron.es",
+    "total_comments": 260
+  },
+  {
+    "_id": "ron_donachie@gameofthron.es",
+    "total_comments": 260
+  },
+  {
+    "_id": "nathalie_emmanuel@gameofthron.es",
+    "total_comments": 258
+  },
+  {
+    "_id": "robert_jordan@fakegmail.com",
+    "total_comments": 257
+  }
+]
+
+5. Output of award-winning movies query:
+[
+  {
+    "_id": ObjectId("573a13d5f29313caabd9cae7"),
+    "year": 2013,
+    "title": "12 Years a Slave",
+    "awards": {
+      "wins": 267,
+      "nominations": 256,
+      "text": "Won 3 Oscars. Another 264 wins & 256 nominations."
+    }
+  },
+  {
+    "_id": ObjectId("573a13cbf29313caabd808d2"),
+    "year": 2013,
+    "title": "Gravity",
+    "awards": {
+      "wins": 231,
+      "nominations": 135,
+      "text": "Won 7 Oscars. Another 224 wins & 135 nominations."
+    }
+  },
+  {
+    "_id": ObjectId("573a13dff29313caabdb7adb"),
+    "year": 2014,
+    "title": "Birdman: Or (The Unexpected Virtue of Ignorance)",
+    "awards": {
+      "wins": 210,
+      "nominations": 183,
+      "text": "Won 4 Oscars. Another 206 wins & 183 nominations."
+    }
+  },
+  {
+    "_id": ObjectId("573a13bef29313caabd5c06c"),
+    "title": "Boyhood",
+    "awards": {
+      "wins": 185,
+      "nominations": 161,
+      "text": "Won 1 Oscar. Another 184 wins & 161 nominations."
+    },
+    "year": 2014
+  }
+]
+
+Note: Each output shows the actual data returned from MongoDB when executing the corresponding query. The results are formatted in JSON for better readability. 

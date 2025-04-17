@@ -1,0 +1,24 @@
+1. Create an initial user document with the following contents:
+
+{
+    "name": "Edvin",
+    "email": "edvin@example.com",
+    "address": "420 Some Street",
+    "studentID": "1234567890"
+}
+
+2. Import the document to the database:
+
+mongoimport --uri "mongodb+srv://edvin:<guess>@cluster0.ggr14.mongodb.net/Hospital" --collection guessUser --drop --file initial_user.json
+
+3. Add the workplace field using mongosh:
+
+mongosh "mongodb+srv://edvin:<guess>@cluster0.ggr14.mongodb.net/Hospital" --eval 'db.guessUser.updateOne({name: "Edvin"}, {$set: {"Workplace": "NESCOL"}})'
+
+4. Update the address:
+
+mongosh "mongodb+srv://edvin:<guess>@cluster0.ggr14.mongodb.net/Hospital" --eval 'db.guessUser.updateOne({name: "Edvin"}, {$set: {"address": "Gallowgate, Aberdeen"}})'
+
+5. Verify the changes
+
+mongosh "mongodb+srv://edvin:<guess>@cluster0.ggr14.mongodb.net/Hospital" --eval 'db.guessUser.find()'
